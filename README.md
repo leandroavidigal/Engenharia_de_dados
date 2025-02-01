@@ -34,7 +34,26 @@ Ao longo do repositório, você encontrará explicações sobre as arquiteturas 
    **Resultados:**  
    A divergência foi eliminada e o processo de migração passou a garantir governança e segurança dos dados, servindo de referência para futuras integrações.  
 
-2. *(Em breve...)* **Migração de dados entre componentes**
+
+2. **Migração Estratégica de Componentes dbt: Técnicas Avançadas para Ambientes Críticos**  
+   **Introdução:**  
+   A migração de componentes em projetos dbt compartilhados transcende o simples ato de transição de códigos, configurando uma reformulação arquitetônica de sistemas em funcionamento. Nesse cenário, a integridade e a resiliência dos dados são constantemente desafiadas por dinâmicas complexas.  
+   
+   **Contexto Teórico e Prático:**  
+   - **Complexidade Invisível em Migrações de Dados:**  
+     O processo envolve desafios teóricos e práticos, fundamentados em disciplinas como a teoria dos grafos, sistemas distribuídos e engenharia de confiabilidade.  
+   - **Modelagem de Dependências:**  
+     A utilização de grafos acíclicos dirigidos (DAGs) mapeia as inter-relações entre centenas de nós, permitindo a identificação de “nós críticos” e a redução do impacto de falhas, minimizando o _blast radius_.  
+   - **Sincronização de Estados Distribuídos:**  
+     Em ambientes que mesclam sistemas legados e novas arquiteturas, garantir atualizações seguras e precisas, mesmo sob o paradigma da consistência eventual, é essencial para manter a integridade dos dados.  
+   - **Gerenciamento de Dependências Não Lineares:**  
+     A complexidade aumenta exponencialmente com o acoplamento entre componentes, refletindo a Lei de Conway e exigindo abordagens que delimitem boundaries funcionais claros para evitar rupturas no serviço.  
+   - **Estratégias de Mitigação de Falhas:**  
+     Técnicas como _circuit breakers_, rollback automatizado e injeção de falhas controladas são implementadas para testar a resiliência do sistema, inspiradas em modelos de sistemas tolerantes a falhas e respaldadas por análises quantitativas do risco.  
+   
+   **Objetivos do Projeto:**  
+   Este projeto propõe uma análise detalhada de técnicas para migração de componentes dbt, combinando fundamentos teóricos com exemplos práticos, métricas e estudos de caso reais. O intuito é oferecer uma visão abrangente que una a teoria acadêmica com a prática da engenharia de dados em ambientes críticos, garantindo migrações seguras, escaláveis e alinhadas com as demandas dos sistemas enterprise modernos.
+
 
 ---
 
